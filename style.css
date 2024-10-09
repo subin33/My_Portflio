@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #010115;
+}
+
+/* Header */
+.header {
+  position: relative;
+  display: flex;
+  place-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  padding: 0 10vw;
+
+}
+
+.logo{
+  max-width: 7vw;
+  z-index: 3;
+}
+
+.main-nav-list{
+  display: flex;
+  list-style: none;
+  gap: 5vw;
+  z-index: 3;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8vw;
+  transition: all 0.5s;
+  font-family: "Dancing Script";
+}
+
+.main-nav-link:hover{
+  color: #fff;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero-img {
+  position: absolute;
+  width: 35vw;
+  margin-right: 60vw;
+  z-index:1;
+}
