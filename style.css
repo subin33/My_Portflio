@@ -465,6 +465,19 @@ model-viewer  {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.error-form {
+  display: grid;
+  place-items: center;
+  width: 20vw;
+  height: 4vh;
+  background-color: #dc2626;
+  border-radius: 5px;
+  margin-top: 1vh;
+  font-size: 1.4vw;
+  font-family: "EB Garamond";
+}
+
+
 
 .form-title {
   text-align: center;
