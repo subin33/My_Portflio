@@ -157,6 +157,26 @@ model-viewer  {
   padding-top: 3vh;
 }
 
+/* Animation Cards */
+.animation {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.showUp {
+  animation: showUp 1s;
+}
+
+@keyframes showUp {
+  0% {
+    transform: translateY(60px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* Animation Cards */
+
 /* Cards */
 .cards {
   position: absolute;
@@ -228,6 +248,7 @@ model-viewer  {
     transform: rotate(360deg);
   }
 }
+
 /* Timeline */
 .time-line-section {
   position: relative;
@@ -309,7 +330,7 @@ model-viewer  {
   align-items: center;
   width: 45vw;
   min-height: 35vh;
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 .time-line-description:nth-child(odd) {
@@ -340,6 +361,12 @@ model-viewer  {
   transform: none;
   opacity: 1;
 }
+.content-timeline-title {
+  color: #fff;
+  font-size: 2.2vw;
+  font-family: "Dancing Script";
+}
+
 
 .content-timeline-description {
   color: #fffe;
